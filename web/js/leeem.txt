@@ -1,0 +1,18 @@
+fun_desglose.js contiene las variables de edociv, empleo, etc se selecciona por 
+valor de campo.
+
+archivos origen
+22ent.shp obtenidos de Inegi proy que maneja inegi  y
+22mun.shp tambien de inegi.
+
+con Qgis se reproyectaron a wgs84, estos se tomaron de base para los json
+edo_qro.shp y demás (contiene el estado de qro)
+qro_wgs84.shp y demás (contiene los municipio de qro).
+
+con Qgis convertí a partir de los shp de dwg84 a: 
+edo_qro.geojson y
+mun_qro.geojson.
+
+en Linea a partir de los shape que estan en wgs84 convetir a topojson
+Edo_qro_topo.geojso
+mun_qro_top.geojson

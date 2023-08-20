@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gr&aacute;ficas IQM</title>
+<!-- Meta tag Keywords -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Course Registration Form Responsive Widget,Login form widgets, Sign up Web forms , Login signup Responsive web form,Flat Pricing table,Flat Drop downs,Registration Forms,News letter Forms,Elements" />
+<!-- D3 javascript  
+<script src="https://d3js.org/d3.v5.min.js"></script -->
+<script src="../js/frameworks/jquery/js/jquery-1.9.1.js"></script>
+<script src="../projects/d3/d3.js"></script>
+<script src="js/funcGral.js"></script>
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+
+function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+</style>
+
+<!-- Meta tag Keywords -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<!-- //js -->
+<!-- web-fonts -->
+<link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+<!-- //web-fonts --> 
+
+</head>
+<body onload="iniciaFun()">
+<!-- body onload="miAjax()-->
+
+	<!-- banner --> 
+<div class="video"> 
+	<div class="center-container">
+	    <div class="w3ls-agileinfo">
+			<h1> Gr&aacute;ficas</h1>	
+		</div>
+		 <div class="bg-agile2">
+			<h2>Seleccione: </h2>
+			<div class="login-form">
+			
+				<form action="#" method="post">
+					<div id="opcEstados" class="left-w3-agile"></div>&nbsp;&nbsp;&nbsp;
+					<!--div id="opcMun" class="left-w3-agile"></div-->
+					<div class="left-w3-agile" style="color: #9AD29C" id="radios">
+						<p><input type="radio" name="xyz" id="chUsuaria" class="ch_ab" value="usuaria" onchange="limpiasvg(2)"/>Usuaria</p>						
+						<p><input type="radio" name="xyz" id="chHechode" class="ch_ab" value="hechos" onchange="limpiasvg(2)"/>Hechos</p>
+						<p><input type="radio" name="xyz" id="chAgresor" class="ch_ab" value="agresor" onchange="limpiasvg()"/>Agresor</p>
+					</div>
+					<div class="left-w3-agile" style="padding: 13px;">
+						<p style="color: #F61010"><input type="checkbox" id="Violencia" placeholder="Violencia" required="" checked/> Caso de Violencia</p>
+						<p><input type="checkbox" id="tipoGrafica" placeholder="Acumular" checked/> L&iacute;nea</p>
+					</div>
+					<div class="left-w3-agile">
+						<form>
+						<input type="button" id="graficaYa" onclick="grafica()" value="graficar">
+						</form>
+					</div>
+					<!--div id="opcEdoCivil"></div -->
+					<!--div id="opcRegimen"></div>
+					<div id="opcOcupacion"></div>
+					<div id="opcEscolar"></div>
+					<div id="opcNivelSocio"></div> -->
+					
+					<!-- input type="text"  name="Edad" onkeypress="return valida(event)" />
+
+					<input type="submit" value="Submit"  -->
+					
+				</form>
+			</div>
+			<div class="left-w3-agile" style="padding: 13px;">
+			<input type="button" id="limpiaYa" onclick="limpiasvg(1)" value=" Nueva ">
+			<br>
+			<input type="button" onclick="printDiv('miImp')" value="imprimir">
+			</div>
+			
+		</div>
+		
+		<div id="miImp" class="bg-agile3" style="padding-bottom: 10px;">
+			<div id="pGraficar" class="login-form"></div>
+			<div id="datoEjeX" class="login-form"></div>
+		</div>
+	<!-- //banner --> 
+	 <!--copyright
+		<div class="copy w3ls">
+		    <p>&copy; 2018  GeCT.  | </p>
+	    </div>
+	//copyright-->
+	</div>	
+</div>	
+</body>
+</html>

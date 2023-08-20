@@ -1,0 +1,125 @@
+
+<!--A Design by W3layouts 
+Author: W3layout & GeCT Soft
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Graficas IQM</title>
+<!-- Meta tag Keywords -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Course Registration Form Responsive Widget,Login form widgets, Sign up Web forms , Login signup Responsive web form,Flat Pricing table,Flat Drop downs,Registration Forms,News letter Forms,Elements" />
+<!-- D3 javascript  
+<script src="https://d3js.org/d3.v5.min.js"></script -->
+<script src="../js/frameworks/jquery/js/jquery-1.9.1.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/d3/d3.js"></script>
+<script src="js/funcPay.js"></script>
+
+<!--script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+
+function hideURLbar(){ window.(0,1); } </script>
+-->
+</style>
+<!-- función para validar creo que no la ocupo, podria borrar-->
+<script>
+function valida(e){
+    tecla = (document.all) ? e.keyCode : e.which;
+
+    //Tecla de retroceso para borrar, siempre la permite
+    if (tecla==8){
+        return true;
+    }
+        
+    // Patron de entrada, en este caso solo acepta numeros
+    patron =/[0-9]/;
+    tecla_final = String.fromCharCode(tecla);
+    return patron.test(tecla_final);
+}
+</script>
+
+<!-- Meta tag Keywords -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<!-- //js -->
+<!-- web-fonts -->
+<link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+<!-- //web-fonts --> 
+
+</head>
+<body onload="iniciaFun()">
+<!-- body onload="miAjax()-->
+
+	<!-- banner --> 
+<div class="video"> 
+	<div class="center-container">
+	    <div class="w3ls-agileinfo" style="padding-bottom:1em">
+			<h1> Gráficas</h1>	
+		</div>
+		 <div class="bg-agile2" style="padding-top: 10px;">
+			<h2>Seleccione: </h2>
+			<div class="login-form">
+			
+				<form>
+					<div id="opcEstados" class="left-w3-agile"></div>&nbsp;
+					<div id="opcMun" class="left-w3-agile"></div>
+					<!--input type="checkbox" id="Parcial" placeholder="Parcial" required="" onclick ="ocultaDiv(this)" /></p>
+					<input disabled=true id="btnTotal" type="button" onclick="prePay()" value="Graficar" /-->
+					<p></p> 
+					</div>
+					<div class="bg-agile4" style="color: #9AD29C" id="radios">
+						<p><input type="radio" name="xyz" id="chUsuaria" class="ch_ab" value="usuaria" onchange="limpiasvg(1)" checked/>Usuaria (o) </p>						
+						<p><input type="radio" name="xyz" id="chHechode" class="ch_ab" value="hechos" onchange="limpiasvg(1)"/>Hecho de Violencia</p>
+						<p><input type="radio" name="xyz" id="chAgresor" class="ch_ab" value="agresor" onchange="limpiasvg(1)"/>Persona Agresora</p>
+					</div>
+					
+					<div class="bg-agile4" style="padding: 13px;">
+						<p style="color: #F61010">
+						<input type="checkbox" id="Violencia" placeholder="Violencia" required="" checked/> Caso de Violencia</p>
+						
+						
+					</div>
+					<!--div class=tab -->
+					
+					<!--button class="tablinks" >Particular</button -->
+					<div id="misCombos" class="tabcontent">
+					<div id="opcedadUs"></div>
+					<div id="opcedoCiv"></div>
+					<div id="opcregime"></div>
+					<div id="opcocupac"></div>
+					<div id="opcescola"></div>
+					<div id="opcnivelS"></div>
+					</div>
+					<div id="Totl" class="tabcontent">
+					
+					</div>
+					<input type="button" onclick="printDiv('miImp')" value="imprimir" />
+					<!-- input type="text"  name="Edad" onkeypress="return valida(event)" />
+
+					<input type="submit" value="Submit"  -->
+					<!--/div-->
+					
+				</form>	
+			</div>
+			<div id="miImp" class="bg-agile3" style="padding-top: 10px;">
+			
+				<div id="pGraficar" class="login-form"; style="position:relative;");style="padding: 0px;" >
+					<div style="position: absolute; left: 40px; top: 5px; z-index: 2;"></div>
+				</div>
+				<div id="datoEjeX" class="login-form">GeCT(r)</div>
+			</div>
+		</div>
+	<!-- //banner --> 
+	 <!--copyright
+		<div class="copy w3ls">
+		    <p>&copy; 2018 GeCT.  | Design by  Gerardo Camacho Tinajero.</p>
+	    </div>
+	//copyright-->
+	</div>	
+</div>	
+</body>
+</html>

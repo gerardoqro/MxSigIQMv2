@@ -1,0 +1,350 @@
+/*
+Author: /
+/*--reset--*/
+
+/*--start editing from here--*/
+/* Style the tab */
+.x_notab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.tabcontent {
+    display: block;
+    padding: 6px 6px;
+    border: 1px solid #ccc;
+    border-top: none; 
+}
+
+/* Style the buttons inside the tab */
+.x_tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+/* Change background color of buttons on hover */
+.x_tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.x_tab button.active {
+    background-color: #ccc;
+}
+
+  #draggable { width: 150px; height: 150px; padding: 0.5em; }
+
+.x_titulo_boton {
+  float:left; 
+  padding:5px;  
+  background-color:#e6e6e6;
+  width:400px;
+  font-family:helvetica;
+  font-size:16px;
+  font-weight:bold;
+}
+.x_boton_mostrar {
+  float:right;
+  font-size:12px;
+  line-height:20px;
+  color:#DE7217;
+}
+#cuadro{
+  float:left;
+  clear:both;
+  border:2px hidden #e6e6e6;
+  opacity: .8;
+  margin-top:2px;
+  padding:5px;
+  width:396px;
+  overflow:auto;
+  font-family:helvetica;
+  font-size:12px;
+  text-align: justify;
+}
+
+#miPay{
+  float:left;
+  clear:both;
+  border:2px solid #00000;
+  /*opacity: .8; */
+  margin-top:2px;
+  padding:5px;
+  width:796px;
+  overflow:auto;
+  font-family:helvetica;
+  font-size:12px;
+ /* text-align: justify; */
+}
+
+.graph-svg-component { 
+    background-color: AliceBlue; 
+}
+td , th  { 
+    padding :  1px  4px ;
+}
+path {
+  stroke: black;
+  stroke-width: 1;
+  fill: none;
+}
+
+line {
+  stroke: black;
+}
+
+.xGrids {
+  stroke: lightgray;
+}
+
+.yGrids {
+  stroke: lightgray;
+}
+
+.xLabel {
+  text-anchor: middle;
+  fill: AQUAMARINE;
+}
+
+.yLabel {
+  text-anchor: end;
+  fill: AQUAMARINE;
+}
+
+x_a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*--end reset--*/
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 100%;
+	background:url(../images/course.jpg)no-repeat;
+    background-position:0px 0px;
+	text-align: left;
+	min-height: 100%;
+	background-size:cover;
+	/*min-height:900px;*/
+	background-position:center;
+	background-attachment:fixed;
+}
+
+.x_center-container {
+    padding: 0em 0 1em;
+}
+/*-- //banner --*/  
+.x_w3ls-agileinfo {
+    padding: 2em 0;
+}
+.x_bg-agile {
+    width: 30%;
+    margin: 0 auto;
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.35);
+}
+.bg-agile2 {
+    width: 20%;
+    margin: 0 auto;
+    padding: 50px;
+	float: left;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.bg-agile3 {
+    width: 65%;
+    margin: 0 auto;
+    padding: 50px;
+	float: right;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.bg-agile4 {
+    width: 45%;
+	font-size: 100%;
+    margin: 0 auto;
+    padding: 2px;
+	float: left;
+    background: rgba(255, 255, 255); /* debe ser 255 todos */
+}
+
+.ch_ab {
+	padding-left: 35px;
+	margin-bottom: 0px;
+	cursor: pointer;
+	font-size: 14px;
+}
+x_h1 {
+      font-size: 35px;
+    text-transform: uppercase;
+    color: #fff;
+    word-spacing: 11px;
+    letter-spacing: 2px;
+    text-align: center;
+  
+    margin: 0!important;
+}
+h3,h4,h5,h6 {
+
+}
+.x_top-icons-agileits-w3layouts {
+    width: 70%;
+    margin: 0 auto;
+}
+.x_top-icons-agileits-w3layouts p {
+    padding: 20px;
+    display: inline-block;
+    background: #5fc9f8;
+    border-radius: 50%;
+}
+.x_top-icons-agileits-w3layouts p i {
+    color: #fff;
+    font-size: 20px;
+}
+.x_top-icons-agileits-w3layouts p:nth-child(5) i {
+    font-size: 17px!important;
+}
+.x_top-icons-agileits-w3layouts p:nth-child(1) i {
+    font-size: 21px!important;
+}
+.x_top-icons-agileits-w3layouts span {
+    display: inline-block;
+    width: 64px;
+    height: 3px;
+    margin: 0;
+    background: #fff;
+    vertical-align: middle;
+}
+ul.icons-text li {
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: .5px;
+}
+ul.icons-text li:nth-child(1) {
+	margin-left:9px;
+	
+}
+ul.icons-text li:nth-child(2) {
+	margin:0px 75px 0px 80px;
+	color: #5fc9f8;
+}
+.x_mid-w3ls{
+	background:#fc3158!important;
+}
+.x_mid-w3ls i{
+	color:#fff!important;
+}
+.x_bg-agile h2 {
+    color: #31c4fc;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin: 0px 0px 30px;
+	font-family: 'Roboto', sans-serif;
+}
+.x_bg-agile h3 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+.x_login-form input[type="text"], .login-form input[type="email"],.form-control, textarea {
+    width: 95.4%;
+    padding: 10px 1px 10px 1px;
+    font-weight: normal;
+    background: none;
+    border: none;
+	background: rgba(235, 235, 235, 0.15);
+    color: #000000 !important;
+    outline: none;
+    font-size: 12px;
+    margin: 3px 5px 3px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    font-family: 'Roboto', sans-serif;
+}
+x_textarea {
+    resize: none;
+    height: 58px;
+}
+select.form-control {
+    width: 100%;
+    padding: 6px 6px;
+}
+
+.x_login-form input[type="submit"],.agile_main_grid_left2_grid_bottom a { 
+	background:#31c4fc;
+    color: #fff;
+    font-size: 17px;
+	margin-top: 10px;
+    border: none;
+    width: 100%;
+    outline: none;
+	letter-spacing: 1px;
+	cursor:pointer;
+    -webkit-appearance: none;
+    padding: 10px 15px;
+	font-family: 'Roboto', sans-serif;
+	transition:.5s ease-in;
+	-webkit-transition:.5s ease-in;
+	-moz-transition:.5s ease-in;
+	-o-transition:.5s ease-in;
+	-ms-transition:.5s ease-in;
+}
+.x_login-form input[type="submit"]:hover,.agile_main_grid_left2_grid_bottom a:hover {
+    background:#5fe3f8;
+	color: #fff;
+	transition:.5s ease-in;
+	-webkit-transition:.5s ease-in;
+	-moz-transition:.5s ease-in;
+	-o-transition:.5s ease-in;
+	-ms-transition:.5s ease-in;
+}
+x_option{
+	background:#000;
+}
+.left-w3-agile {
+    width: 45%;
+    float: left;
+}
+.right-agileits {
+    width: 45%;
+    float: right;
+    margin-right: 11px;
+}
+ /*--placeholder-color--*/
+
+::-webkit-input-placeholder {
+	color:#fff !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+	color:#fff !important; 
+}
+::-moz-placeholder {  /* Firefox 19+ */
+	color:#fff !important;
+}
+:-ms-input-placeholder {  
+	color:#fff !important;
+}
+/*--//placeholder-color--*/
